@@ -34,7 +34,7 @@ class Car extends Model {
    
     brand = 'Audi';
     modelno = 'A9'; /* its given priority */
-  }
+  
   printBrand = () => {
     console.log(this.brand);
   }
